@@ -11,7 +11,7 @@ import io from "socket.io-client";
 import { DotLottieReact } from "@lottiefiles/dotlottie-react";
 import EditGrpModal from "../miscallaneous/EditGrpModal";
 
-const ENDPOINT = "http://localhost:3000";
+const ENDPOINT = "https://chatfam.onrender.com";
 let socket, selectedChatCompare;
 
 const Chatbox = () => {
